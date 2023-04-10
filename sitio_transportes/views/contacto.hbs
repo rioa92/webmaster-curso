@@ -1,0 +1,38 @@
+<main class="holder contacto">
+        <div>
+            <h2>Contacto Rápido</h2>
+            <form action="/contacto" method="post" class="formulario">
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre">
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="text" name="email">
+                </p>
+                <p>
+                    <label for="telefono">Telefono</label>
+                    <input type="text" name="tel">
+                </p>
+                <p>
+                    <label for="mensaje">Mensaje</label> 
+                    <textarea name="mensaje"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="Enviar" />
+                </p>
+            </form>
+            {{ message }}
+        </div>
+        <div class="datos">
+            <h2>Otras vias de comunicación</h2>
+            <p>También puede comunicarse con nosotros usando los siguientes medios</p>
+            <ul>
+                <li>Teléfono: 433225468</li>
+                <li>Email: contacto@transportesx.com.ar</li>
+                <li>Facebook:</li>
+                <li>Twitter:</li>
+                <li>Skype:</li>
+            </ul>
+        </div>
+    </main>
